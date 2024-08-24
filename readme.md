@@ -41,15 +41,6 @@ python main_test.py --lr 0.03 --alg FedAvg --epoch 2000 --data_name CIFAR10 --ex
 python main_dirichlet_selecyes_emnist.py --alg cdd_ci_plus --lr 0.03 --data_name CIFAR10 --alpha_value 0.01 --epoch 10000 --E 1
 ```
 
-部分参数说明 :
-
---alg 算法选择，可选：
-
-main_test.py:  < FedAvg, FedAvgM, SCAF, FedAdam, GLFL(IGFL-C), only-atte-self(IGFL-S) ,self-atte(IGFL) >
-
-main_dirichlet_selecyes_emnist.py: < FedAvg, FedMoment, SCAF,  FedAdam, 
-
-cdd_ci_plus(IGFL-C), only-atte-self(IGFL-S),  self-atte(IGFL) >
 
 
 
